@@ -1,0 +1,84 @@
+.container > table {
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 2px;
+}
+
+.container > input {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.35)
+}
+
+.container > input:focus{
+  outline: none;
+}
+
+.container td {
+  text-align: center;
+}
+
+.container > table tr{
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 9fr 2fr 2fr 2fr;
+  font-size: smaller;
+}
+
+.container > table th {
+  font-weight: bold;
+  padding: 5px;
+  background-color: #eaecf0;
+  text-align: left;
+  font-size: small;
+}
+
+.container > table tbody tr {
+  padding: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2vh 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.pagesWrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+}
+
+.pagesWrapper label {
+  font-size: smaller;
+}
+
+.pagesWrapper select, .pagesWrapper button{
+  margin-left: 10px;
+  width: 70px;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+.pagesWrapper button{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 2px;
+  border: none;
+}
+
+.disabledButton{
+  display: none;
+}
+
+.pagesWrapper button:hover, 
+.pagesWrapper select:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+
